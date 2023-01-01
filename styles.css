@@ -1,0 +1,105 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+body {
+    padding: 20px;
+}
+
+.main-container {
+    width: 800px;
+    height: 550px;
+    border-radius: 8px;
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+    overflow: hidden;
+}
+
+.top-box {
+    width: 100%;
+    height: 40%;
+    padding: 35px;
+}
+
+.top-box h1 {
+    color: hsl(179, 62%, 43%);   
+}
+
+.top-box h2 {
+    padding-top: 25px;
+}
+
+.top-box h3 {
+    padding-top: 12px;
+}
+
+.yellow-text {
+    color: hsl(71, 73%, 54%);
+}
+
+.grey-text {
+    color: hsl(218, 22%, 67%);
+    font-weight: 500;
+}
+
+.white-text {
+    color: white;
+}
+
+.per-month {
+    color: white;
+    font-weight: lighter;
+    display: inline-block;
+}
+
+
+.bottom-box {
+    width: 100%;
+    height: 60%;
+}
+
+.bottom-left {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 50px;
+    background-color: hsl(180,61%,44%);
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.1);
+    font-size: 18px; 
+}
+
+.bottom-right {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    padding: 50px;
+    background-color: hsl(180,43%,48%);
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+li {
+    padding-top: 5px;
+}
